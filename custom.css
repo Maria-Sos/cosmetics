@@ -1,0 +1,157 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: 0;
+  }
+
+.card {
+    border: none;
+
+}
+
+.item-img {
+    border: none;
+    width: 18rem; 
+    height: 20rem;
+}
+
+.products {
+    text-decoration: none;
+    color: black;
+}
+
+input[type='number']{
+    width: 50px;
+    border-color: rgba(251, 250, 250, 0.542);
+    border-radius: 5px;
+}
+
+.nav-link.link-dark.active {
+    font-weight: bold;
+    color: black;
+    background-color: #f8f9fa;
+}
+
+/* .back {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+} */
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#f8f9fa;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:15px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:none;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+  #main-image {
+    overflow: hidden;
+  }
+  
+  #main-image:hover {
+    transform: scale(1.5);
+  }
+  
+.is-click {
+  transform: translateY(-12px);
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(41, 40, 49, 0.309);
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(41, 40, 49, 0.309);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(41, 40, 49, 0.309);
+}
+
+select:invalid {
+  color: rgba(41, 40, 49, 0.309);;
+}
+
+.accordion{
+  --bs-accordion-btn-bg: white;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-bg: white;
+  --bs-accordion-bg: white;
+}
+
+.accordion-item:last-child .accordion-button.collapsed {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.244);
+}
+
+/* Modal CSS */
+.modal-content {
+  background-image: linear-gradient(to right, #ADD100 0%, #7B920A  51%, #ADD100  100%);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font: bolder;
+  text-shadow: #0b0b0b 3px 3px 3px;
+}
+
+.modal-body {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font: bolder;
+  text-shadow: #0b0b0bc7 2px 2px 2px;
+}
