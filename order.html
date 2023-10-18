@@ -36,14 +36,14 @@
                     <fieldset class="row g-3" id="fs-frm-inputs">
                         <div class="col-12">
                             <label for="full-name" class="form-label">Your name</label>
-                            <input type="text" name="name" placeholder="First and Last" class="form-control" id="full-name" pattern="\w{3,16}" required>
+                            <input type="text" name="name" placeholder="First name and Last name" class="form-control" id="full-name" pattern="\w{3,16}" required>
                             <div class="valid-feedback"></div>
                             <div class="invalid-feedback">Name is required.</div>
                         </div>
                     
                         <div class="col-md-6">
                             <label for="email-address" class="form-label">Your email address</label>
-                            <input type="email" class="form-control" id="email-address" placeholder="email@domain.tld"
+                            <input type="email" class="form-control" id="email-address" placeholder="email@gmail.com"
                                 aria-describedby="emailHelp" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                             <div class="valid-feedback"></div>
@@ -52,11 +52,27 @@
 
                         <div class="col-md-6">
                             <label for="phone" class="form-label">Your contact phone number</label>
-                            <input type="tel" class="form-control" id="phone" placeholder="1111111111"
+                            <input type="tel" class="form-control" id="phone" placeholder="111 111 1111"
                                 aria-describedby="telHelp" pattern="[0-9]{10}" required>
-                            <div id="telHelp" class="form-text">Enter just 10 numbers of your phone.</div>
+                            <div id="telHelp" class="form-text">Enter just 10 numbers of your phone without spaces.</div>
                             <div class="valid-feedback"></div>
                             <div class="invalid-feedback">Phone number is required.</div>
+                        </div>
+
+                        <div class="col-md-6 d-flex justify-content-between container border rounded-1 border-light-subtle mt-4 ms-2 me-5">
+                            <label class="form-label mt-1" >Prefered contact method:</label>
+                            <div class="form-check mt-1 me-2">
+                                <input name="email-connect" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Email
+                                </label>
+                              </div>
+                              <div class="form-check me-3 mt-1">
+                                <input name="phone-connect" class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Phone
+                                </label>
+                              </div>
                         </div>
                     
                         <div class="col-12">
@@ -271,7 +287,7 @@
                             <section class="mb-4 bg-black border-2 rounded shadow-lg">
                                 <div class="row">
                                     <div class="col mb-md-0 mb-5 mx-2">
-                                        <form id="fs-frm" name="simple-contact-form" action="https://formspree.io/f/mdorwqyz"
+                                        <form id="fs-frm" name="simple-contact-form" action="https://formspree.io/f/xpzgkgyb"
                                             method="POST">
                                             <div class="row">
                                                 <div class="col-md-6">
